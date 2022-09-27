@@ -1,0 +1,19 @@
+html {
+	color: #000;
+	background: #fff;
+	cursor: none;
+}
+
+body .cursor {
+	pointer-events: none;
+}
+body .cursor {
+	position: fixed;
+	top: 0;
+	left: 0;
+	mix-blend-mode: difference;
+	z-index: 1000;
+}
+body .cursor circle {
+	fill: #f7f8fa;
+}
